@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@media only screen and (min-width: 768px)
+{
+
+    body{
+        background: #010001;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .navbar-apple-black
+    {
+        background: #181818;
+        color: white;
+        padding: 0 20px;
+
+        height: 44px;
+    }
+
+    .navbar-apple-black a {
+        color: white;
+        font-weight: 400;
+        font-size: smaller;
+    }
+
+    .navbar-apple-black .container
+    {
+        padding: 0 80px;
+    }
+
+    body > header > nav.navbar.navbar-apple-black.navbar-expand-lg > div > a
+    {
+        font-size: 20px;
+    }
+
+
+    section#index{
+
+    }
+
+    .nav-link
+    {
+        padding: 0 40px;
+        font-weight: 400;
+    }
+
+    /*Deletable CSS*/
+    .sticky_nav_bar {
+        overflow: hidden;
+        background-color: black;
+        /*margin-top: 44px;*/
+        color: white;
+        height: 52px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+
+    }
+
+    .sticky_nav_bar.container{
+        padding: 0 80px;
+
+    }
+
+    /* Navbar links */
+    .sticky_nav_bar.container a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+
+        text-decoration: none;
+        padding: 0 15px;
+
+    }
+
+    .sticky_nav_bar > div > a.nav-link.second-nav-logo
+    {
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .boxed
+    {
+        border: 2px solid white;
+        padding: 1px 5px;
+        font-size: 12px;
+        vertical-align: middle;
+        border-radius:20%;
+        position: relative;
+        top: -2px;
+    }
+
+
+
+    #sticky_nav_bar > div > ul > li > a
+    {
+        font-size: .7rem;
+        line-height: 22px;
+        white-space: nowrap;
+        padding: 0 14px;
+        font-weight: 600;
+
+    }
+
+
+    /* Page content */
+    .content {
+        padding: 16px;
+    }
+
+    .fixed-top
+    {
+        background: rgba(0,0,0,.80);
+    }
+
+
+    /**/
+
+    /*Hero Section*/
+
+    .pink-title
+    {
+        color: #ffe5db;
+        padding-bottom: 125px;
+
+        letter-spacing: -3px;
+        font-weight: 500;
+    }
+
+
+    .boxed2
+    {
+        border: 2px solid #ffe5db;
+        padding: 5px;
+        font-size: 16px;
+        vertical-align: middle;
+        border-radius:20%;
+        padding-right: 10px;
+        position: relative;
+        top: -3px;
+    }
+
+    /*Info Section*/
+    #main-section
+    {
+        margin-top: -100px;
+    }
+
+    .large-pink-text
+    {
+        color: #ffe5db;
+        text-align: center;
+        letter-spacing: -8px;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 1.0875;
+        font-family: "Lucida Sans Unicode", serif;
+
+    }
+
+}
+
+*{
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
